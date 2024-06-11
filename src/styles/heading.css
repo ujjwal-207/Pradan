@@ -1,0 +1,15 @@
+.heading {
+    overflow: hidden;
+    background-color: #E49BFF;
+}
+header{
+    display: inline-block;
+}
+button{
+    float: right;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-top: 21.40px;
+}
