@@ -1,0 +1,31 @@
+
+.container{
+    position:relative;
+    top:10%;
+    left:35%;
+    color:white;
+    font-style: italic;
+    font-weight: 700;
+    font-size: xx-large
+}
+.display img{
+    
+     position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+   
+    height: 100%;
+    width: 50%;
+    background-size: 100%;
+}
+
+    
+
+
+.container input{
+    box-shadow:  0 1px 5px rgb(138, 137, 137);
+    border-radius: 7px;
+    margin: 30px auto 20px auto;
+    padding: 15px;
+}
