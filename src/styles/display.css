@@ -1,9 +1,9 @@
 
 .container{
-    position:relative;
+    position:absolute;
     top:10%;
     left:35%;
-    color:white;
+    
     font-style: italic;
     font-weight: 700;
     font-size: xx-large
@@ -14,16 +14,33 @@
     content: "";
     right: 0;
     top: 0;
-   
     height: 100%;
     width: 50%;
     background-size: 100%;
+    overflow: hidden;
 }
 
+.container p{
+    position: relative;
+    right: 70%;
+    overflow: hidden;
     
-
-
+}
+.container button{
+    position: relative;
+    right: 40%;
+    
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 17px;
+   margin-left: 3px;
+}
 .container input{
+    position: relative;
+    right: 40%;
+    margin-top: 30px;
+    width: 300px;
     box-shadow:  0 1px 5px rgb(138, 137, 137);
     border-radius: 7px;
     margin: 30px auto 20px auto;
