@@ -5,8 +5,10 @@ function Header(){
    return(
       <div className="heading">
       <header >
-         <img src="images/hand.jpg" />
+      <div className="company">
+       
         <h1>Pradan</h1>
+        </div>
         </header>
        
         <button>Login</button>

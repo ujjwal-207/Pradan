@@ -8,6 +8,7 @@ return(
     <div>
         <Header />
         <Display />
+        <Footer />
         
     </div>
 )
