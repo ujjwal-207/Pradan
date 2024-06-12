@@ -1,7 +1,15 @@
+html,body{
+    overflow-y:  auto;
+    overflow-x: hidden;
+    height: 100%;
+}
 .heading {
-    overflow: hidden;
-   position: relative;
-  background-color:#FFA62F;
+    overflow-y:  auto;
+    overflow-x: hidden;
+   position: sticky;
+  background-color:black;
+  bottom: 10px;
+  
   
 }
 header{
@@ -16,11 +24,13 @@ header{
     margin-top: 21.40px;
     right: 50%;
     margin-right: 20px; 
+    margin-bottom: 21.40px;
+    margin-left: 21.40px;
     background-color: black;
     color: white;
 }
  .heading img{
-    position: absolute;
+    position: relative;
     height: 50px;
     width: 50px;
     margin-left: 30px;
@@ -28,6 +38,7 @@ header{
 .heading h1{
     position: relative;
     left: 75%;
+    color: azure;
     
 } 
 .company{
