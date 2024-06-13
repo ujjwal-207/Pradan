@@ -6,11 +6,10 @@ html,body{
 .heading {
     overflow-y:  auto;
     overflow-x: hidden;
-   position: sticky;
-  background-color:black;
-  bottom: 10px;
-  
-  
+    position: relative;
+    background-color:black;
+    bottom: 10px;
+
 }
 header{
     display: inline-block;

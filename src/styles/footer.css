@@ -1,17 +1,41 @@
+
+ul{
+    list-style-type: none;
+}
 footer{
-    text-align: center;
     position: absolute;
     left:0px;
-   bottom:0px;
-   height:30px;
-   width:100%;
+    bottom:0px;
+    height:200px;
+    width:100%;
+    background:black;
+    display: flex;
+    top: 200%;
+    
 }
-.footer{
+
+.companys{
+   position: static;
+   left: 0px;
+   padding-left: 0px;
+   top:200%;
+   text-align: left;
+   color: antiquewhite;
+}
+.contact{
+    position: static;
     text-align: center;
-    position:absolute;
-   left:0px;
-   bottom:0px;
-   height:30px;
-   width:100%;
+    right: 50%;
+    top:200%;
+    color: antiquewhite;
 }
+.terms{
+    position: static;
+    right: 0;
+    top:200%;
+    text-align: center;
+    color: antiquewhite;
+}
+
+
 

@@ -3,10 +3,9 @@ import "../styles/footer.css"
 
 function Footer(){
     return(
-       
-     <div className="footer">
+       <div className="footers">
         <footer>
-        <div>
+        <div className="companys">
             <h2>Our company</h2>
             <ul>
                 <li>About Us</li>
@@ -14,14 +13,14 @@ function Footer(){
                 <li>FAQs</li>
             </ul>
         </div>
-        <div>
+        <div className="contact">
             <h2>Contact</h2>
             <ul>
                 <li>Help& Support</li>
                 <li>Become Our Restaurant Partner</li>
             </ul>
         </div>
-        <div>
+        <div className="terms">
             <h2>Legal</h2>
             <ul><li>Terms&Condition</li>
             <li>Privacy and Policy</li>
@@ -30,6 +29,7 @@ function Footer(){
         </div>
         </footer>
         </div>
+        
        
     )
 }
