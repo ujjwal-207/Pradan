@@ -24,9 +24,14 @@ function Display(){
             />
         </button>
         </div>
-        
-        
-        <img src="images/nepali-food-2.jpg" ></img>
+        <img className ="main-img"src="images/nepali-food-2.jpg" ></img>
+        <div className='photo'>
+        <img className ="chicken"src='images/chicken.jpeg'></img>
+        <img className ="rice"src="images/rice.avif"></img>
+        </div>
+        <div className='suggestion'>
+            <p>Some suggestion</p>
+        </div>
         </div>
 
 

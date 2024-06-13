@@ -1,10 +1,10 @@
-html,body{
+body{
     overflow-y:  auto;
     overflow-x: hidden;
     height: 100%;
 }
 .heading {
-    overflow-y:  auto;
+    overflow-y:  hidden;
     overflow-x: hidden;
     position: relative;
     background-color:black;
@@ -30,7 +30,7 @@ header{
 }
  .heading img{
     position: relative;
-    height: 50px;
+   
     width: 50px;
     margin-left: 30px;
 }
