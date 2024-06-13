@@ -1,0 +1,12 @@
+.boundary{
+    position: relative;
+    top:350px;
+}
+.offer-items{
+    position: relative;
+    background-color: black;
+    top: 350px;
+    display: flex;
+    color: antiquewhite;
+    left: 0;
+}
