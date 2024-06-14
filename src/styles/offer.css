@@ -5,8 +5,19 @@
 .offer-items{
     position: relative;
     background-color: black;
-    top: 350px;
+    top: 327px;
+   color: antiquewhite;
+    right: 0;
+    text-align: center;
+
+}
+.features{
     display: flex;
-    color: antiquewhite;
-    left: 0;
+    
+}
+.features > *{
+    flex:1 1 0;
+}
+.minium-order{
+    min-width:max-content;
 }
